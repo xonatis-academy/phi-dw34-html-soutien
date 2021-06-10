@@ -1,0 +1,172 @@
+/**
+ * GESTION DE LA POLICE DES CARACTERES
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+ body {
+     font-family: 'Quicksand', sans-serif;
+ }
+ 
+ /**
+  * GESTION DE L'ALIGNEMENT DU TEXTE
+  */
+ 
+ .text-center {
+     text-align: center;
+ }
+ 
+ .text-left {
+     text-align: left;
+ }
+ 
+ .text-right {
+     text-align: right;
+ }
+ 
+ /**
+  * GESTION DES COLONNES
+  */
+ 
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .col-sm-1 {
+     flex: 1;
+     min-width: 300px;
+ }
+ 
+ .col-sm-2 {
+     flex: 2;
+     min-width: 300px;
+ }
+ 
+ .col-sm-3 {
+     flex: 3;
+     min-width: 300px;
+ }
+ 
+ .col-sm-4 {
+     flex: 4;
+     min-width: 300px;
+ }
+ 
+ .col-sm-5 {
+     flex: 5;
+     min-width: 300px;
+ }
+ 
+ .col-sm-6 {
+     flex: 6;
+     min-width: 300px;
+ }
+ 
+ .col-sm-7 {
+     flex: 7;
+     min-width: 300px;
+ }
+ 
+ .col-sm-8 {
+     flex: 8;
+     min-width: 300px;
+ }
+ 
+ .col-sm-9 {
+     flex: 9;
+     min-width: 300px;
+ }
+ 
+ .col-sm-10 {
+     flex: 10;
+     min-width: 300px;
+ }
+ 
+ .col-sm-11 {
+     flex: 11;
+     min-width: 300px;
+ }
+ 
+ .col-sm-12 {
+     flex: 12;
+     min-width: 300px;
+ }
+ 
+ /**
+  * GESTION DES ESPACES (ZONE DE REMPLISSAGE, INTERIEUR, EXTERIEUR)
+  */
+ 
+ .p-0 {
+     padding: 0; /* 0 espacement */
+ }
+ 
+ .p-1 {
+     padding: 4px; /* = 16px x 0.25 */
+ }
+ 
+ .p-2 {
+     padding: 8px; /* = 16px x 0.5 */
+ }
+ 
+ .p-3 {
+     padding: 16px; /* = 16px x 1.0 */
+ }
+ 
+ .p-4 {
+     padding: 24px; /* = 16px x 1.5 */
+ }
+ 
+ .p-5 {
+     padding: 48px; /* = 16px x 3 */
+ }
+ 
+ .m-0 {
+     margin: 0; /* 0 espacement */
+ }
+ 
+ .m-1 {
+     margin: 4px; /* = 16px x 0.25 */
+ }
+ 
+ .m-2 {
+     margin: 8px; /* = 16px x 0.5 */
+ }
+ 
+ .m-3 {
+     margin: 16px; /* = 16px x 1.0 */
+ }
+ 
+ .m-4 {
+     margin: 24px; /* = 16px x 1.5 */
+ }
+ 
+ .m-5 {
+     margin: 48px; /* = 16px x 3 */
+ }
+ 
+ /**
+  * DIVERS
+  */
+ 
+ .container {
+     max-width: 1140px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ 
+ .border {
+     border: 1px solid #DDD;
+ }
+ 
+ .w-100 {
+     width: 100%;
+ }
+ 
+ .menu-div {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
